@@ -12,28 +12,29 @@
   <main>
     <p class="title">Rock Paper Scissors</p>
 
-    <button class="move-button js-rock-button">
-      <img class="move-icon" src="rock-emoji.png">
-    </button>
+    <div class="btns">
+      <button class="move-button js-rock-button">
+        <img class="move-icon" src="rock-emoji.png">
+      </button>
+      <button class="move-button js-paper-button">
+        <img class="move-icon" src="paper-emoji.png">
+      </button>
+      <button class="move-button js-scissors-button">
+        <img class="move-icon" src="scissors-emoji.png">
+      </button>
+    </div>
 
-    <button class="move-button js-paper-button">
-      <img class="move-icon" src="paper-emoji.png">  
-    </button>
-
-    <button class="move-button js-scissors-button">
-      <img class="move-icon" src="scissors-emoji.png">
-    </button>
-
-    <p class="js-result result"></p>
-    <p class="js-moves "></p>
+    <p class="js-result result hidden"></p>
+    <p class="js-moves hidden"></p>
     <p class="js-score score"></p>
 
-    <button class="reset-score-button js-reset-button">
-      Reset Score
-    </button>
-
-    <button class="auto-play-button js-autoplay-button">Auto Play</button>
-  </main> 
+    <div class="other-btns">
+      <button class="reset-score-button js-reset-button">
+        Reset Score
+      </button>
+      <button class="auto-play-button js-autoplay-button">Auto Play</button>
+    </div>
+  </main>
 
   <script src="game.js"></script>
 </body>
